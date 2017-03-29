@@ -51,7 +51,7 @@ TipFinder::TipFinder() {
  */
 void TipFinder::img_callback(const sensor_msgs::ImageConstPtr& ros_img)
 {
-    ROS_INFO("Entered img_callback");
+    //ROS_INFO("Entered img_callback");
 
     //try-catch converts sensor_msgs::Image to cv::Mat
     cv_bridge::CvImagePtr cv_ptr;
